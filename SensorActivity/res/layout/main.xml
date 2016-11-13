@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Daddy"
+            android:id="@+id/textViewFoo"
+            android:background="#ff7335" android:capitalize="characters"
+            android:textSize="50dp" android:textStyle="bold"
+            android:layout_marginTop="75dp" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewFoo" android:layout_centerVertical="true" android:layout_alignLeft="@+id/textView"/>
+</RelativeLayout>
